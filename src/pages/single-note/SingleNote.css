@@ -1,0 +1,14 @@
+.single-note {
+  max-width: 1200px;
+  margin: 2em auto;
+
+  padding: 2em 4em;
+  background-color: #fff;
+}
+
+.single-note .note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}

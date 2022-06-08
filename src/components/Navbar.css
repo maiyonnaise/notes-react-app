@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #4B8673;
+  width: 100%;
+  color: #F6FBF4;
+}
+
+.navbar h1 {
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.navbar nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 3em;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid #F6FBF4;
+  padding: .5em 1.5em;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.navbar nav a:hover,
+.navbar nav a:focus {
+  background-color: #F6FBF4;
+  color: #4B8673
+}
